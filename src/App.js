@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-blue-200 p-4">
+      <h1 className="text-2xl font-bold">React + Tailwind</h1>
+      <p className="text-gray-700 mt-2">This is a sample paragraph with Tailwind CSS styles.</p>
+      <button className="bg-green-500 text-white px-4 py-2 mt-4 rounded hover:bg-green-600">
+        Click me
+      </button>
     </div>
   );
 }
